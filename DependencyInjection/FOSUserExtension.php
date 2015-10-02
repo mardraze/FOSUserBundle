@@ -131,7 +131,6 @@ class FOSUserExtension extends Extension
             $this->loadGroups($config['group'], $container, $loader, $config['db_driver']);
         }
 
-
         $container->setParameter('mardraze.user.template_bundle', $config['template_bundle'] ? $config['template_bundle'] : 'FOSUserBundle');
     }
 
