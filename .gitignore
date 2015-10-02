@@ -8,3 +8,4 @@ Propel/map/*
 
 vendor/*
 .idea
+php_errors.log
