@@ -48,4 +48,10 @@ class BaseContainerAware extends ContainerAware
     {
         return $this->container->getParameter('fos_user.template.engine');
     }
+
+    protected function trans($value)
+    {
+        return $this->container->get('translator')->trans($value);
+    }
+
 }
