@@ -1,5 +1,5 @@
 {
-    "name": "friendsofsymfony/user-bundle",
+    "name": "mardraze/user-bundle",
     "type": "symfony-bundle",
     "description": "Symfony FOSUserBundle",
     "keywords": ["User management"],
@@ -17,6 +17,10 @@
         {
             "name": "FriendsOfSymfony Community",
             "homepage": "https://github.com/friendsofsymfony/FOSUserBundle/contributors"
+        },
+        {
+            "name": "Marcin Drazek",
+            "email" : "marcindr1@gmail.com"
         }
     ],
     "require": {
